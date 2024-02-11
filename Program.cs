@@ -39,6 +39,7 @@ fraudulentOrderIDs[3] = "D000";
 
 */
 
+/*
 string[] fraudulentOrderIDs = { "A123", "B456", "C789" };
 
 Console.WriteLine($"First: {fraudulentOrderIDs[0]}");
@@ -48,3 +49,25 @@ Console.WriteLine($"Third: {fraudulentOrderIDs[2]}");
 fraudulentOrderIDs[0] = "F000";
 
 Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
+
+Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to process.");
+
+*/
+
+/*
+
+string[] orderIDs = { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179" };
+
+foreach (string orderID in orderIDs)
+{
+    if (orderID.StartsWith("B"))
+    {
+        Console.WriteLine(orderID);
+    }
+}
+
+*/
+
+string firstName = "Bob";
+int widgetsSold = 7;
+Console.WriteLine($"{firstName} sold {widgetsSold} widgets.");
